@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{LRD Write Up}
+\author{Brayden JoHantgen}
+\date{July 27 2026}
+
+\oddsidemargin = 7pt
+\textwidth = 440pt
+
+\begin{document}
+
+\maketitle
+
+\section*{Little Red Dots}
+
+
+\section*{Project Goals}
+\begin{itemize}
+    \item Conduct extensive background literature review.
+    \item Look for solution of 1D Bondi-Centrifugal flows.
+\end{itemize}
+
+\section*{Literature Review}
+
+\subsection*{Abramowicz - 1981}
+\href{https://ui.adsabs.harvard.edu/abs/1981ApJ...246..314A/abstract}{\textbf{Rotation-Induced Bistability of Transonic Accretion Onto a Black Hole}}
+\newline \textbf{Summary -} The aim of the authors is to determine the influence of angular momentum on the accretion of a polytropic gas onto a black hole. The authors assume a simple system with adiabatic accretion, a radial flow pattern of the gas, and they use the Newtonian model of a black hole. The authors discover two seperate regimes of the accretion. For large angular momentum (\textit{disklike accretion}), the sonic point is $r_s < 3r_g$, and the accretion flow is subsonic throughout the disk. In this regime the flow becomes transonic at the cusp of the effective potential. For small angular momentum (\textit{quasi-shperical accretion}), the sonic point discontinuosly jumps to $r_s \gg r_g$. The flow throughout the disk in this regime is transonic.
+
+\subsection*{Baggen - 2023}
+\href{https://ui.adsabs.harvard.edu/abs/2023ApJ...955L..12B}{\textbf{Sizes and mass profiles of candidate massive galaxies discovered by JWST at $7 < z < 9$: evidence for very early formation of the central $\sim 100$pc of present-day ellipticals}}
+\newline \textbf{Summary -} The authors of this work took an existing LRD sample and fit each of the objects with a Sersic profile to get an estimation of the size of the LRDs based on their luminosities. The authors decided to use the F200W band for their fits. They estimate the background using sigma-clipped statistics and subtract the background from the data and then convolve with a 2D Gaussian. The authors find the objects have a mean size of $\sim 150$pc, with the full range being $\sim 80-300$pc. 
+
+\subsection*{Furtak - 2023}
+\href{https://ui.adsabs.harvard.edu/abs/2023ApJ...952..142F/abstract}{\textbf{JWST UNCOVER: Extremely Red and Compact Object at $z_{\text{phot}} \simeq 7.6$ Triply Imaged by A2744}}
+\newline \textbf{Summary -} JWST has taken an image of a red, compact, unresolved object. This object is at $z_{\text{phot}} \simeq 7.6$ with a size of $r_e \lesssim 35$ pc. The red color of the LRDs presented in this work are much redder than expected for typical early galaxies at $z \sim 7-8$. This object has an estimated luminosity of $\sim 10^{44} -10^{46} \text{erg s}^{-1}$. The authors of this paper propose several different explanations for the objects that were observed. The authors present this object as likely a heavily dust obscured AGN. Some other likely interpretations discussed in this work are supermassive stars (stars with masses $\geq 10^3 M_{\odot}$) and direct collapse black holes (black holes formed from the direct collapse of a primordial gas halo leading to black holes with a mass $\sim 10^5 M_{\odot}$). 
+
+\subsection*{Matthee - 2024}
+\href{https://ui.adsabs.harvard.edu/abs/2024ApJ...963..129M/abstract}{\textbf{Little Red Dots: An Abundant Population of Faint Active Galactic Nuclei at $z\sim 5$ Revealed by the EIGER and FRESCO JWST Surveys}}
+\newline \textbf{Summary -} This work contains a spectroscopic search of LRDs at $z\simeq4-6$. Each LRD shows a significant H$\alpha$ line which contributes $\sim 30 - 90 \%$ of the total line flux. There are two objects that show complex line shapes. These objects are not detected at X-ray wavelengths because X-ray emission from these objects is likely below the survey limits. The authors give a mass estimate of $10^{7-8} M_{\odot}$ and a number density estimate of $10^{-5} \text{cMpc}^{-3}$. This paper is one of the foundational observational papers that brings together several LRDs to describe common features associated with them.
+
+\subsection*{Barrufet - 2026}
+\href{https://arxiv.org/abs/2608.21522}{\textbf{Beyond Orientation: Evidence for distinct physical regimes among Little Red Dots and Little Blue Dots}}
+\newline \textbf{Summary -} The authors of this work believe LRDs and LBDs belong to the same population of objects and that their orientation is the cause of their observed differences. The authors examine 89 LRDs and 191 LBDs and find that LRDs have broader H$\alpha$ profiles then LBDs. This indicates a difference in gas kinematics. LRDs also have an H$\alpha$ luminosity that is $\sim 6$ times that of the LBDs. Ultimately, the authors report that their findings disagree with their original hypothesis and that increasing gas column density around the central engine may be the link between their differing properties.
+
+\subsection*{Brazzini - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260122214B}{\textbf{The Little Blue and Red Dots Rosetta Stones: Non-Gaussian broad lines, hot dust, and X-ray weakness}}
+\newline \textbf{Summary -} This work selects two JWST objects to serve as benchmarks for Little Red Dots (GN-28074) and Little Blue Dots (GS-3073). The authors have the following requirements for LRDs: a red rest-frame optical slope, blue rest-frame UV slope where brown dwarfs are excluded, compact, and broad emission lines. The authors have the following requirements for LBDs: blue rest-frame optical slope, blue rest-frame UV slope, compact, broad emission lines, and X-ray weakness. The authors believe that LRDs and LBDs are not two seperate populations but the classification in the two categories is arbitrary (This is discussed in a seperate paper, Geris in prep.). Table 3 in the paper give a comparisson on the two benchmark objects with a composite of SDSS quasars.
+
+\subsection*{De Luca - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026PhRvL.136w1402D}{\textbf{Primordial Black-Hole-Based Pathways to Little Red Dots}}
+\newline \textbf{Summary -} The authors of this work have performed an investigation into the possibility LRDs could have a primordial origin. They believe primordial black holes (PBH) could serve as the initial seeds of the LRDs. They look at three possible formation scenarios (Direct PBH formation, Assembly via hierarchial mergers, and Cosmological growth through accretion) and compare their predicted results with QSO1 (a strongly lensed LRD at $z=7.04$). The Direct PBH formation scenario examines BHs that could form from PNHs formed in the early Universe. Unfortunately the masses of PBHs are constrained in a range that makes this method very unlikely. Assembly via hierarchial mergers is a scenario, in which PBHs form binaries and then merge. The merged PBHs then merge with other PBHs allowing them to grow. The number densities of the resulting LRDs from this scenario is too small for what is currently observed, therefore, the authors only claim this is a possible, non-dominant source for LRDs. Cosmological growth through accretion is the scenario of PBH seeds growing through baryonic accretion. This explanation is able to reproduce the features of QSO1, however, it requires a very low metalicity around the PBH.
+
+\subsection*{Gentile - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260606575G/abstract}{\textbf{The quasi-star model for Little Red Dots: potential and challenges}}
+\newline \textbf{Summary -} LRDs have a characteristic "V" shape in their rest-frame UV/Optical spectral energy distributions (SED). There is a blue UV arm and a red optical arm. The apex of the "V" is located usually around the Balmer limit. Follow-up spectroscopic studies show broad hydrogen emission lines. LRDs are found at $z > 4$, with a sharp decrease in number at lower redshifts. The authors propose a quasi-star model to explain the spectral properties of LRDs. The quasi-star model consists of an energy source (SMBH) surrounded by an optically thick zone of convection. There would be an additional layer that scatters the radiation from the deeper layers. The whole system is then surrounded by a diffuse and clumpy medium. The scattering layer produces the emission lines. This model does not reproduce helium emission lines or emission from hot dust. Therefore, the authors suggest a modification to the model, such as the addition of coronal gas heated by magnetic fields.
+
+\subsection*{Ilie - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260602539I}{\textbf{JWST's Little Red Dots as collapsed Supermassive Dark Stars}}
+\newline \textbf{Summary -} The quasi-star model requiring the collapse of a supermassive star has a very restrictive set of environmental and structural conditions. These conditions include the supression of $\text{H}_2$ cooling, rapid inflow rates ($\dot{M}_{\text{gas}} \gtrsim 0.1-1 M_{\odot} \text{yr}^{-1}$), and rotation. The author proposes a seperate model in the hopes of relaxing these conditions of quasi-star formation. The new model is one of supermassive dark star collapsing to leave a remnant similar to a quasi-star. A dark star is a zero metalicity gas cloud in hydrostatic equalibrium that has a luminosity powered by dark matter annihilation. Supermassive darks stars would be cool, large, and massive objects. The collapse of a dark star requires the dark star to be accreting and experience the onset of a GR instability. The remnant from the collapse of a supermassive dark star would then be a LRD.
+
+\subsection*{Liu - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260717448L}{\textbf{Optically Thick Outflow Driven by Supercritical Accretion May Explain Little Red Dots}}
+\newline \textbf{Summary -} In this work the authors analyze LRDs using a model of the optically thick outflow driven by supercritical accretion onto black holes. This model is a spherically asymmetric, radiation-driven, and optically thick out-flow (shown in Figure 1). The temperatures, luminosities, line widths, and balmer features of the LRDs are used to bench-mark the model of the authors. The authors find there model agrees with the observed blackbody luminosities and temperatures of the LRDs. The line widths are mostly consistent with what is observed (within a factor of 1.5 for more than 80\% of sources). This model does estimate some of the Balmer features of the LRDs (specifically the decrements). 
+
+\subsection*{Naidu - 2026}
+\href{https://www.nature.com/articles/s41586-026-10846-4}{\textbf{A gas-enshrouded and gas-reddened black hole at cosmic dawn}}
+\newline \textbf{Summary -} An object was recently observed by JWST. This object has a redshift of $z=7.76$ and therefore sits at cosmic dawn. This object shows remarkably strong Balmer breaks, with a strength of $7.7$ (Figure 2 compares the Balmer Break strength of this object with LRDs, quiescent galaxies and typical galaxies). There are absorption features in the H$\gamma$ and H$\beta$ lines that suggest this black hole is surrounded by a cloud of dense gas with a high turbulent velocity. The authors present a model of a black hole surrounded by a shell of a dense, turbulent gas to explain the spectral features. The authors propose this object as a template for explaining LRDs.
+
+\subsection*{Naidu - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260630711N}{\textbf{Little Red Dots as Intermediate Mass, Super-Eddington Engines: Insights from Type IIn Supernovae and the 1837-1856 Great Eruption of $\eta$ Carinae}}
+\newline \textbf{Summary -} The authors of this work use Type IIn and other eruption events to formulate a self-consistent explanation for the life-cycles of LRDs. The authors focus specifically on the 19th Century Great Eruption of $\eta$ Carinae which was a significant brightening event caused by a merger causing a cascade of shocks in the surrounding medium. Type IIn Supernovae are enshrouded core-collapse supernovae that go off in a dense circumstellar medium. There are multiple stages of the life-cycle of a LRD. Stage I is called the Pre-LRD phase, where a central engine drives a wind of dense, optically thick material. Stage II is the LRD phase, where the central engine drives fast winds into the envelope and the resulting shocks are converted into radiation. The authors of this paper favor supermassive stars as the LRD central engines.
+
+\subsection*{Pacucci - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260823671P/abstract}{\textbf{More Numerous and Bluer: Companions of the Brightest Little Red Dots Differ from Control Galaxies at $> 3\sigma$, Hinting at Synchronized Black Hole Seed Formation}}
+\newline \textbf{Summary -} Recently it was discovered that some LRDs have blue companions at seperations of $0.5 -5 kpc$. The authors of this work suggest that either LRDs are the cause of their companions or that the companions are the cause of the LRDs. Direct collapse black holes (DCBHs) require three conditions to form: pristine gas, an atomic cooling halo, and irradiation by a large enough flux of Lyman-Werner photons. It has been observed the the blue companions to the LRDs in this sample have sufficient LW fluxes. The brightest quartile of the LRD sample in this work has a blue companion within 2 kpc. The authors report three main findings: the excess luminosity from the companion is confined within 2 kpc of the LRD, the companions are significantly bluer than ordinary galaxies, and this phenomenon is restricted to the most luminous LRDs.
+
+\subsection*{Seyberlich - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260805267S}{\textbf{Where did all the Little Red Dots go? The abundance of LRD analogues among objects with broad lines at $z < 0.35$}}
+\newline \textbf{Summary -} At high red-shift LRDs are understood to share these three properties: a "v-shaped" SED, a compact rest-frame optical morphology, and broad Balmer line emission. The goal of this paper is to search for local LRD analogues at $z < 0.35$ based on the three properties of LRDs. The authors look through a variety of surveys and find 9 objects they deem to be local LRDs. One of the objects recovered by the authors is claimed to be a local LRD analog by another research group. They have nicknamed this object "The Egg". The authors of this work are also able to confirm that the number density for the LRD analogues is extremely small at low redshifts. 
+
+\subsection*{Takasao - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026arXiv260521589T}{\textbf{A Magnetized Black Hole Envelope Model for Little Red Dots}}
+\newline \textbf{Summary -} These authors propose a model of an optically thick envelope around a black hole that behaves like a stellar atmosphere (Firgure 1 in the paper gives an illustration). The model proposed by the authors is magnetized because this property is commonly generated through dynamo processes in convective layers of the envelope. The authors focus on two observables, the weakness of X-ray emission and the formation of Balmer lines. The authors propose a new interpretation of braod emission lines in LRDs based on their model. They predict Doppler broadening arises from plasma clumps corotating with the envelope magnetosphere. The authors also find that their model is in agreement with observed X-ray luminosities the LRDs.
+
+\subsection*{Tran - 2026}
+\href{https://arxiv.org/abs/2609.00113}{\textbf{Weighing Little Red Dots with Transient Events}}
+\newline \textbf{Summary -} The authors of this work propose using tidal disruption events (TDEs) and quasi-periodic eruptions (QPEs) as probes to get the black hole masses of LRDs. Three scenarios are examined, the first being that LRDs are overmassive BHs, the second being LRDs have BH masses following closely from classical local scaling relations, and finally that LRDs are only a subpopulation of a larger population of low-mass BHs. The authors use a Hernquist stellar distribution to get TDE rates per degree-square for each scenario and QPE rates for each scenario. They find TDE rates of $2.78*10^{-3}$, $1.96*10^{-3}$, and $3.37*10^{-2} \text{yr}^{-1} \text{deg}^{-2}$ for the three scenarios. The QPE rates were found to be $1.64*10^{-2}$, $4.72*10^{-2}$, and $4.96 * 10^{-1} \text{yr}^{-1} \text{deg}^{-2}$.
+
+\subsection*{Zwick - 2026}
+\href{https://ui.adsabs.harvard.edu/abs/2026ApJ..1002....7Z}{\textbf{Little Red Dots as self-gravitating discs accreting on supermassive stars: Spectral appearance and formation pathway of the progenitors to direct collapse black holes}}
+\newline \textbf{Summary -} This work examines LRDs as sumpermassive stars surrounded by massive self-gravitating accretion disks that form from gas-rich galaxy mergers (shown in Figure 1). The authors fit spectra from two LRDs with their model and find good agreement. The LRD spectra was chosen for the characteristic V-shape and broad Balmer lines, but there is not a strong Balmer-break. Typical LRDs do show strong Balmer breaks. This model likely doesn't recover the observed abundance of LRDs and needs another formation mechanism to properly account for the observed abundance.
+
+\section*{Papers Relavant to the Analytical Model}
+
+\subsection*{Abramowicz - 1981}
+\href{https://ui.adsabs.harvard.edu/abs/1981ApJ...246..314A/abstract}{\textbf{Rotation-Induced Bistability of Transonic Accretion Onto a Black Hole}}
+
+\end{document}
